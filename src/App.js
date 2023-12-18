@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 // import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import RegistrationPct from './Components/RegistrationPct';
 // import Counter from './Components/Counter';
 // import Props from './Components/Props';
 // import Fetch from './Components/Fetch';
