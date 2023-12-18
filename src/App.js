@@ -34,7 +34,6 @@ function App() {
         <Route path='/' element={<Router />} />
       </Routes> */}
 
-      <RegistrationPct/>
 
     </div>
   );
