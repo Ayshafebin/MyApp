@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+// import Input from './Components/Input';
 // import Counter from './Components/Counter';
 // import Props from './Components/Props';
 // import Fetch from './Components/Fetch';
@@ -9,7 +10,7 @@ import './App.css';
 // import Test from './Components/Test';
 // import MyContext from './Components/MyContext';
 // import UseContext from './Components/UseContext';
-// import Router from '../src/Components/Router';
+import Router from '../src/Components/Router';
 
 function App() {
   return (
@@ -29,9 +30,11 @@ function App() {
 
       {/* <Counter/> */}
 
-      {/* <Routes>
-        <Route path='/' element={<Router />} />
-      </Routes> */}
+      <Routes>
+        <Route path='/profile/:username'  element={<Router />} />
+      </Routes>
+
+      {/* <Input/> */}
 
 
     </div>
